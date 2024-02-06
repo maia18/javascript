@@ -21,8 +21,8 @@ section {
     display: block;
     background-color: white;
     color: black;
-    width: 700px;
-    height: 500px;
+    width: 500px;
+    /* height: 350px; */
     border-radius: 12px;
     margin: auto;
     padding: 15px;

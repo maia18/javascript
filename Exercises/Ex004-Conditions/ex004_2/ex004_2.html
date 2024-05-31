@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Traffic ticket</h1>
+    Car velocity: <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="Check" onclick="Calcule()">
+    <div id="res"></div>
+    <script>
+        function Calcule() {
+            var txtv = document.querySelector('input#txtvel')
+            var res = document.querySelector('div#res')
+            var vel = Number(txtv.value)
+            res.innerHTML = `<p>Your velocity now is: <strong>${vel}km/h</strong></p>`
+            res.innerHTML += `<p>Always wear a seatbelt!`
+            if (vel > 60) {
+                res.innerHTML += "<strong>Slow down!!!</strong>"
+            }
+        }
+    </script>
+</body>
+</html>

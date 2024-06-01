@@ -40,12 +40,10 @@ main {
 /* Section configurations */
 
 section {
-    font-size: 2.5em;
-    font-weight: bold;
+    
 }
-section > div#hour {
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+section > div#hour { 
+
 }
 section > div#image{
     margin: auto;

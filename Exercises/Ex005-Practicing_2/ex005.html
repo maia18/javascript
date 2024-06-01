@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-Hour</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body onload="Age()">
+    <header>
+        <h1>Age Verification</h1>
+    </header>
+    <main>
+        <section>
+            <div id="age">
+                <p>
+                    <label for="iYEAR_AGE">Year</label>
+                    <input type="number" name="YEAR_AGE" id="iYEAR_AGE" required min="1900" max="2024" oninput="Age()">
+                </p>
+                <p>
+                    <label for="sexfeminine">Feminine</label>
+                    <input type="radio" name="sex" id="sexfeminine">
+                    <label for="sexmasculine">Masculine</label>
+                    <input type="radio" name="sex" id="sexmasculine">
+                </p>
+                <p>
+                    <input type="button" value="Check">
+                </p>
+            </div>
+            <div id="image"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Site made by &copy;Cursoemvideo</p>
+    </footer>
+    <script src="JS/age.js"></script>
+</body>
+</html>

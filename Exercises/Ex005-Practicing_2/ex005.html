@@ -14,20 +14,21 @@
         <section>
             <div id="age">
                 <p>
-                    <label for="iYEAR_AGE">Year</label>
-                    <input type="number" name="YEAR_AGE" id="iYEAR_AGE" required min="1900" max="2024" oninput="Age()">
+                    <label for="iYear">Year: </label>
+                    <input type="number" name="Year" id="iYear">
                 </p>
                 <p>
-                    <label for="sexfeminine">Feminine</label>
-                    <input type="radio" name="sex" id="sexfeminine">
-                    <label for="sexmasculine">Masculine</label>
-                    <input type="radio" name="sex" id="sexmasculine">
+                    <label for="Sex">Sex: </label>
+                    <label for="Fem">Feminine</label>
+                    <input type="radio" name="Sex" id="Fem">
+                    <label for="Masc">Masculine</label>
+                    <input type="radio" name="Sex" id="Masc">
                 </p>
                 <p>
-                    <input type="button" value="Check">
+                    <input type="button" value="Check" onclick="Check()">
                 </p>
             </div>
-            <div id="image"></div>
+            <div id="res"></div>
         </section>
     </main>
     <footer>

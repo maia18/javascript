@@ -45,14 +45,14 @@ section {
 section > div#hour { 
 
 }
-section > div#image{
+section > div#res{
     margin: auto;
     width: 250px;
     height: 250px;
     border-radius: 50%;
     box-shadow: 0px 0px 10px 0px black;
 }
-section > div#image > img {
+section > div#res > img {
     width: 100%;
     height: 100%;
     border-radius: 50%; 

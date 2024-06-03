@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* Global configurations */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+/* Header configurations */
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+header > h1 {
+    text-shadow: 0px 0px 1px black;
+}
+
+/* Main configurations */
+
+main.container {
+    display: flex;
+    margin: auto;
+}
+
+/* Section configurations */
+
+section {
+    display: flex;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+section > div > p > input[type=number] {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    font-size: 0.8em;
+    margin: 10px auto;
+
+}
+section > div#counter-numbers input[type=button] {
+    width: 100%;
+    padding: 4px;
+    margin: 10px auto;
+}
+/* Div-Counter configurations */
+
+div#counter-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(130, 175, 175);
+    width: 300px;
+}
+div#counter-numbers > p label {
+    line-height: 30px;
+}
+div#counter-numbers > p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Div-Res configurations */
+
+#res {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    font: italic 1.1em Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+/* Footer configurations */
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 1px black;
+}

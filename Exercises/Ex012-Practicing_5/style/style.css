@@ -69,15 +69,22 @@ div#analyzer > p {
     font-size: 1.2em;
 }
 
+select {
+    width: 100%;
+    text-align: center;
+}
+
 /* Div-Res configurations */
 
 div#res {
     display: flex;
+    flex-direction: column;
+    line-height: 40px;
     justify-content: center;
     width: 300px;
-    padding: 10px;
-    font: italic 1.1em Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
 }
 
 /* Footer configurations */

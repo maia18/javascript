@@ -16,12 +16,14 @@
                 <p>
                     <label for="Inum">Number</label>
                     <input type="number" name="num" id="Inum">
+                    <input type="button" value="Add" onclick="ADD()">
                 </p>
-                <input type="button" value="Add" onclick="ANALYZER()">
+                <p>
+                    <select name="numbers" id="inumbers"></select>
+                </p>
+                <input type="button" value="Check" onclick="ANALYZER()">
             </div>
-            <div id="res">
-                <ul id="list"></ul>
-            </div>
+            <div id="res"></div>
         </section>
     </main>
     <footer>

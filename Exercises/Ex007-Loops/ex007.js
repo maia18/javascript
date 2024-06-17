@@ -1,23 +1,23 @@
-console.log("Hello, world!")
-console.log("Hello, world!")
-console.log("Hello, world!")
-console.log("Hello, world!")
-console.log("Hello, world!")
-console.log("Hello, world!")
-console.log("Hello, world!")
-
-// -----------------------------------------
-
-var c = 1 
-while (c <= 7) {
-    console.log(`${c}º - Hello, world!`)
-    c++
+function randomNumbers(min, max) {
+    const r = Math.random() * (max - min) + min;
+    // return r
+    return Math.floor(r);
 }
+const min = 1;
+const max = 50;
+let rand = randomNumbers(min, max);
 
 // -----------------------------------------
 
-var c = 1 
+while (rand != 10) {
+    rand = randomNumbers(min, max);
+    console.log(rand);
+}
+console.log('\r');
+
+// -----------------------------------------
+
 do {
-    console.log(`${c}º - Hello, world!`)
-    c++
-} while (c <= 7)
+    rand = randomNumbers(min, max);
+    console.log(rand);
+} while (rand != 10);

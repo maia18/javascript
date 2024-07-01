@@ -39,10 +39,9 @@ class ValideCPF {
     }
 }
 
-let valideCpf = new ValideCPF('070.987.720-03');
+// let valideCpf = new ValideCPF('070.987.720-03');
 
-if (valideCpf.valide()) {
-    console.log('Cpf valide.');
-} else {
-    console.log('Cpf invalid.');
-}
+// if (valideCpf.valide()) {
+//     console.log('Cpf valide.');
+// } else {
+//     console.log('Cpf invalid.');

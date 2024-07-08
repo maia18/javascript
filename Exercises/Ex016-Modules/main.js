@@ -1,12 +1,8 @@
-class Person {
-    constructor(name, last_name) {
-        this.name = name;
-        this.last_name = last_name;
-    }
-}
-/*
+import GenerateCPF from './Ex016_1/assets/JS/GenerateCPF';
+import './Ex016_1/assets/style/style.css';
 
- https://caniuse.com/
- https://babeljs.io/
-
-*/
+(function(){
+    const generate = new GenerateCPF();
+    const generateCpf = document.querySelector('.cpf-generated');
+    generateCpf.innerHTML = generate.generatenewCPF();
+}());

@@ -2,10 +2,11 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "Curso-JavaScript",
-  "main": "index.js",
+  "main": "C:/Users/Nelso/OneDrive//Documentos/Estudos/javascript/Exercises/Ex017-Node/Ex017_7/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel ./Exercises/Ex016-Modules/main.js -o ./bundle.js --presets=@babel/env -w"
+    "babel": "babel ./Exercises/Ex016-Modules/main.js -o ./bundle.js --presets=@babel/env -w",
+    "start": "nodemon C:/Users/Nelso/OneDrive//Documentos/Estudos/javascript/Exercises/Ex017-Node/Ex017_7/server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,8 @@
   "devDependencies": {
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
-    "@babel/preset-env": "^7.24.7"
+    "@babel/preset-env": "^7.24.7",
+    "nodemon": "^3.1.4"
   },
   "dependencies": {
     "ansi-styles": "^3.2.1",

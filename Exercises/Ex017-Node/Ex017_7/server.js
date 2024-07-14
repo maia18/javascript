@@ -9,7 +9,7 @@ const app = express();
 // http://meusite.con/contact <-- GET --> Give the page /contact
 
 app.get('/', (req, res) => {
-    res.send('<form action="/" method="POST">Name: <input type="text" name="name_"><button>Send</button></form>');
+    res.send('<form action="/" method="POST">Client Name: <input type="text" name="name_"><button>Send</button></form>');
 });
 
 app.post('/', (req, res) => {

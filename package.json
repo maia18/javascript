@@ -2,11 +2,11 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "Curso-JavaScript",
-  "main": "C:/Users/Nelso/OneDrive/Documentos/Estudos/javascript/Exercises/Ex017-Node/Ex017_8/server.js",
+  "main": "C:/Users/Nelso/OneDrive/Documentos/Estudos/javascript/Exercises/Ex017-Node/Ex017_10/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel ./Exercises/Ex016-Modules/main.js -o ./bundle.js --presets=@babel/env -w",
-    "start": "nodemon C:/Users/Nelso/OneDrive//Documentos/Estudos/javascript/Exercises/Ex017-Node/Ex017_8/server.js"
+    "start": "nodemon C:/Users/Nelso/OneDrive//Documentos/Estudos/javascript/Exercises/Ex017-Node/Ex017_10/server.js"
   },
   "keywords": [],
   "author": "",
@@ -38,6 +38,7 @@
     "convert-source-map": "^2.0.0",
     "core-js-compat": "^3.37.1",
     "debug": "^4.3.5",
+    "ejs": "^3.1.10",
     "electron-to-chromium": "^1.4.816",
     "escalade": "^3.1.2",
     "escape-string-regexp": "^1.0.5",
